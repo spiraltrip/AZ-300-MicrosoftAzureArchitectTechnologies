@@ -133,14 +133,14 @@ The main tasks for this exercise are as follows:
 
 1. Exit the current PowerShell session by typing `exit` and pressing Enter and then start it again by typing at the command prompt `PowerShell` and pressing Enter.
 
-1. From the PowerShell prompt, run the following to install the AzureRM.ManagedServiceIdentity module:
+1. From the PowerShell prompt, run the following to install the Az.ManagedServiceIdentity module:
 
    ```pwsh
    [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
    Install-Module -Name PowerShellGet -SkipPublisherCheck
    ```
 
-1. From the PowerShell prompt, run the following to install the the pre-release version of the AzureRM.ManagedServiceIdentity module:
+1. From the PowerShell prompt, run the following to install the the pre-release version of the Az.ManagedServiceIdentity module:
 
    ```pwsh
    Install-Module -Name Az.ManagedServiceIdentity
